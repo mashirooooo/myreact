@@ -1,0 +1,27 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{ 
+    margin:0; 
+    padding:0; 
+    text-decoration: none;
+    font-size: 12px;
+    list-style-type: none;
+    font-family: '微软雅黑','宋体';
+    color: #484848;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+a:hover {
+    color: #b4110c;
+    text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:1em;}  

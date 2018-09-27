@@ -1,0 +1,17 @@
+require.config({
+    paths:{
+        'jquery':'./../lib/jquery-3.2.1', 
+        'gscarousel':'./../lib/jquery-gsCarousel/jquery.gsCarousel',
+        'http':'./httpclient',
+        'gdszoom':'./../lib/magnifying',
+        'cookie':'Cookie',
+        'top':'./top'
+    },
+    shim:{
+        'http':['jquery'],
+        'gscarousel':['jquery'],
+        'gdszoom':['jquery'],
+        'cookie':['jquery'],
+        'top':['jquery']
+    }
+})

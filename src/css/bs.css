@@ -1,0 +1,115 @@
+div{display: block;}
+a{text-decoration: none;}
+ul li{list-style: none;}
+*{margin: 0;padding: 0;}
+.s_hc{
+    height: 85px;
+    width: 1200px;
+    margin:0 auto ; 
+    background: #fff;
+    /*opacity : 0.5;*/
+}
+.s_hc img{
+    /*width: 100%;*/
+}
+.s_top{
+    width: 1200px;
+    height: 50px;
+    margin:0 auto ; 
+    background:#C0FFFF;
+    /*border-radius: 6px;*/
+}
+.s_top .s_top_l{
+    float: left;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    color:green;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.s_top .s_top_r{
+    float:right;
+}
+.s_top .s_top_r li{
+    float:left;
+    width: 40px;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+.s_nav{
+    width: 1200px;
+    /*height: 1000px;*/
+    margin:0 auto;
+}
+.s_nav .s_nav_l{
+    float:left;
+}
+.s_nav .s_nav_r{
+    float:right;
+    background: #ccc;
+    width: 950px;
+}
+.s_nav .s_nav_l .s_li1{
+    width: 250px;
+    background:#D0CDC7;
+    text-align:center;
+}
+.s_nav .s_nav_l .s_li1 span{
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    display:block;
+    width: 250px;
+    background: #C1FFCB;
+    border-bottom: 2px solid #fff;
+}
+.s_nav .s_nav_l .s_li1 span:hover{
+    cursor:pointer;
+}
+.s_nav .s_nav_l .s_li1 .s_li2,
+.s_nav .s_nav_l .s_li1 .s_ul2,
+.s_nav .s_nav_l .s_li1 .s_ul3,
+.s_nav .s_nav_l .s_li1 .s_ul4
+{
+    display:none;
+}
+.s_nav .s_nav_l .s_li1 .s_li2 li,
+.s_nav .s_nav_l .s_li1 .s_ul2 li,
+.s_nav .s_nav_l .s_li1 .s_ul3 li,
+.s_nav .s_nav_l .s_li1 .s_ul4 li
+{
+    height: 40px;
+    border-bottom: 1px dashed #ddd;
+    padding: 10px 0;
+}
+.s_nav .s_nav_l .s_li1 .s_li2 li:hover,
+.s_nav .s_nav_l .s_li1 .s_ul2 li:hover,
+.s_nav .s_nav_l .s_li1 .s_ul3 li:hover,
+.s_nav .s_nav_l .s_li1 .s_ul4 li:hover
+{
+    background: #BD9F40;
+    cursor:pointer;
+    color:red;
+}
+.s_nav_r .table tr{
+    line-height: 35px;
+    text-align: center;
+}
+.s_nav_r .dfk,
+.s_nav_r .wfk,
+.s_nav_r .yfk,
+.s_nav_r .th,
+.s_nav_r .wtdd,
+.s_nav_r .yhpj,
+.s_nav_r .spsj,
+.s_nav_r .spcx,
+.s_nav_r .spxj,
+.s_nav_r .spkc
+{
+    display:none;
+}
+
+
+

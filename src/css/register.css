@@ -1,0 +1,171 @@
+
+#header {
+  z-index: 9991110;
+  height: 85px;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto; }
+  #header #logon {
+    width: 500px;
+    height: 85px;
+    overflow: hidden;
+    position: absolute;
+    left: 0; }
+    #header #logon a {
+      display: block;
+      height: 85px; }
+      #header #logon a img {
+        background: url(../img/logo.png) no-repeat 50% 50%; }
+  #header .cart_pic {
+    width: 199px;
+    height: 31px;
+    background: url(../img/icon.png) no-repeat -441px -609px;
+    position: absolute;
+    right: 0;
+    top: 28px; }
+
+#regcontent {
+  background: url(../img/regsplit.jpg) no-repeat 741px center;
+  width: 1200px;
+  margin: 10px auto 50px auto;
+  position: relative; }
+  #regcontent .inner {
+    border: solid 1px #DADADA;
+    height: 373px;
+    border-top: solid 2px #EE3E45; }
+    #regcontent .inner .fl {
+      width: 710px;
+      width:332px;
+      padding: 20px 0 0 20px; }
+      #regcontent .inner .fl form {
+        display: block;
+        margin-top: 0em; }
+        #regcontent .inner .fl form ul {
+          height: 312px;
+          width: 690px; }
+          #regcontent .inner .fl form ul li {
+            position: relative;
+            padding: 20px 0 0 90px;
+            z-index: 1;
+            height: 54px; }
+            #regcontent .inner .fl form ul li label {
+              font-size: 13px;
+              width: 85px;
+              text-align: right;
+              position: absolute;
+              left: 0;
+              top: 28px;
+              display: block; }
+              #regcontent .inner .fl form ul li label span {
+                padding: 0 3px 0 0;
+                color: red;
+                font-size: 12px; }
+            #regcontent .inner .fl form ul li .text {
+              color: #828181;
+              margin: 0 10px 0 0;
+              vertical-align: middle;
+              border: solid 1px #D8D8D8;
+              padding: 5px;
+              width: 306px;
+              height: 34px;
+              line-height: 22px; }
+            #regcontent .inner .fl form ul li .tip {
+              width: 268px;
+              border: solid 1px #EBEBEB;
+              vertical-align: middle;
+              padding: 0 8px;
+              height: 34px;
+              line-height: 32px;
+              font-size: 12px;
+              overflow: hidden;
+              display: inline-block;
+              background-color: #F7F7F7;
+              color: #B1B1B1; }
+            #regcontent .inner .fl form ul li .notice {
+              color: #F00; }
+          #regcontent .inner .fl form ul .agreeli {
+            padding-top: 15px;
+            font-size: 12px; }
+            #regcontent .inner .fl form ul .agreeli .checkbox {
+              vertical-align: middle;
+              margin: -3px 4px 0 0; }
+            #regcontent .inner .fl form ul .agreeli a {
+              color: #005AA0;
+              font-size: 12px; }
+          #regcontent .inner .fl form ul .btnli {
+            padding-top: 15px; }
+            #regcontent .inner .fl form ul .btnli input {
+              width: 306px;
+              cursor: pointer;
+              padding: 0;
+              margin: 0;
+              height: 35px;
+              border: 0;
+              background: url(../img/icon.png) no-repeat 0 -1338px; }
+    #regcontent .inner .r {
+      float: right;
+      height: 276px;
+      width: 230px;
+      padding: 40px 0 0 0; }
+      #regcontent .inner .r p {
+        width:230px;
+        height:56px;
+        padding: 0 0 30px 0;
+        font-size: 13px;
+        line-height: 25px; }
+        #regcontent .inner .r p a {
+          color: #AD0F0B; }
+      #regcontent .inner .r .p1 {
+        font-size: 13px;
+        line-height: 20px; }
+      #regcontent .inner .r ul li {
+        padding: 0;
+        margin: 10px 0 0 0;
+        height: 30px;
+        line-height: 30px;
+        width: 110px;
+        display: inline-block; }
+        #regcontent .inner .r ul li a {
+          line-height: 30px;
+          height: 30px;
+          display: block;
+          padding-left: 32px;
+          font-size: 12px; }
+          #regcontent .inner .r ul li a span {
+            position: relative;
+            top: 7px;
+            left: -8px;
+            display: inline-block;
+            width: 23px;
+            height: 23px;
+            background: url(../img/quick_login_type.jpg) no-repeat 0 0; }
+          #regcontent .inner .r ul li a .pic1 {
+            background-position: 0px 0px; }
+          #regcontent .inner .r ul li a .pic2 {
+            background-position: -47px 0px; }
+          #regcontent .inner .r ul li a .pic3 {
+            background-position: -92px 0px; }
+          #regcontent .inner .r ul li a .pic4 {
+            background-position: -137px 0px; }
+          #regcontent .inner .r ul li a .pic5 {
+            background-position: -184px 0px; }
+          #regcontent .inner .r ul li a .pic6 {
+            background-position: -232px 0px; }
+          #regcontent .inner .r ul li a .pic7 {
+            background-position: -279px 0px; }
+  #regcontent .bg1 {
+    overflow: hidden;
+    height: 5px;
+    position: absolute;
+    width: 989px;
+    left: 5px;
+    bottom: -5px;
+    background-color: #E9E9E9; }
+  #regcontent .bg2 {
+    width: 4px;
+    overflow: hidden;
+    height: 100%;
+    position: absolute;
+    right: -4px;
+    top: 4px;
+    background-color: #E9E9E9; }

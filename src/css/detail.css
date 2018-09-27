@@ -1,0 +1,295 @@
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+  padding: 1px 6px; }
+
+#maincontent {
+  width: 1200px;
+  margin: 0 auto; }
+  #maincontent #site {
+    box-sizing: content-box;
+    color: #ad0f0b;
+    line-height: 25px;
+    height: 25px;
+    padding: 10px 0 2px 0; }
+    #maincontent #site label {
+      color: #9C9C9C; }
+      #maincontent #site label a {
+        color: #ad0f0b; }
+      #maincontent #site label b {
+        font-family: Arial;
+        padding: 0 4px;
+        color: #7C7B7B; }
+  #maincontent #maindetail {
+    height: 450px;
+    box-sizing: content-box; }
+    #maincontent #maindetail .fl ul {
+      float: left;
+      width: 84px;
+      padding-top: 20px; }
+      #maincontent #maindetail .fl ul li {
+        vertical-align: bottom;
+        position: relative;
+        cursor: pointer;
+        height: 83px; }
+        #maincontent #maindetail .fl ul li img {
+          border: solid 1px #e4e4e4;
+          padding: 1px;
+          width: 76px;
+          height: 76px; }
+      #maincontent #maindetail .fl ul .first img {
+        border: solid 1px #b6120c; }
+    #maincontent #maindetail .smallimg {
+      height: 450px;
+      width: 450px;
+      float: left;
+      cursor: move; }
+      #maincontent #maindetail .smallimg img {
+        height: 450px;
+        width: 450px; }
+    #maincontent #maindetail .fr {
+      z-index: 100;
+      height: 450px;
+      float: right;
+      width: 650px;
+      position: relative; }
+      #maincontent #maindetail .fr .h2 {
+        font-weight: normal;
+        padding: 0 0 5px 10px;
+        font-size: 18px;
+        border-bottom: dotted 1px #d1d1d1;
+        height: 25px;
+        line-height: 25px;
+        overflow: hidden; }
+      #maincontent #maindetail .fr form {
+        display: block;
+        margin-top: 0em; }
+        #maincontent #maindetail .fr form .top {
+          position: relative;
+          height: 180px; }
+          #maincontent #maindetail .fr form .top .no {
+            line-height: 20px;
+            position: absolute;
+            right: 0;
+            top: 13px;
+            color: #939393; }
+          #maincontent #maindetail .fr form .top li {
+            padding: 14px 0 0 0; }
+          #maincontent #maindetail .fr form .top .label {
+            padding: 0 10px 0 10px; }
+          #maincontent #maindetail .fr form .top del {
+            color: #a9a9a9;
+            font-family: Arial; }
+          #maincontent #maindetail .fr form .top .discount {
+            padding: 0 5px;
+            color: #fd8203;
+            font-family: Arial; }
+        #maincontent #maindetail .fr form .pricespan {
+          font-family: Arial;
+          font-size: 24px;
+          vertical-align: middle;
+          color: #b10808; }
+        #maincontent #maindetail .fr form .mobile_price {
+          padding: 0px 0px 0px 30px;
+          color: #C90000;
+          font-size: 16px; }
+          #maincontent #maindetail .fr form .mobile_price label {
+            margin: 0px 8px 0px 0px;
+            color: White;
+            padding: 0px 6px;
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
+            background-color: #00B62B; }
+        #maincontent #maindetail .fr form .num {
+          color: #b10808;
+          font-family: Arial;
+          padding: 0 5px;
+          font-weight: bold; }
+        #maincontent #maindetail .fr form .xin {
+          vertical-align: middle;
+          background: url(../img/icon.png) repeat-x 0 -245px;
+          overflow: hidden;
+          position: relative;
+          top: -2px;
+          margin: 0 6px 0 0;
+          height: 13px;
+          width: 80px;
+          display: inline-block;
+          vertical-align: middle; }
+          #maincontent #maindetail .fr form .xin .xins {
+            height: 23px;
+            display: inline-block;
+            background: url(../img/icon.png) repeat-x 0 -232px; }
+        #maincontent #maindetail .fr form a {
+          text-decoration: underline;
+          color: #b10808; }
+        #maincontent #maindetail .fr form .bottom {
+          height: 238px;
+          background-color: #f3f4f6; }
+          #maincontent #maindetail .fr form .bottom li {
+            padding: 15px 0 0 78px;
+            line-height: 20px;
+            position: relative; }
+          #maincontent #maindetail .fr form .bottom .label {
+            position: absolute;
+            left: 10px;
+            line-height: 25px;
+            top: 15px; }
+          #maincontent #maindetail .fr form .bottom .li1 {
+            height: 50px;
+            box-sizing: content-box; }
+            #maincontent #maindetail .fr form .bottom .li1 .label {
+              top: 25px; }
+          #maincontent #maindetail .fr form .bottom .s_list {
+            height: 50px;
+            vertical-align: middle; }
+            #maincontent #maindetail .fr form .bottom .s_list label {
+              height: 50px;
+              display: inline-block;
+              margin: 0 10px 0 0;
+              width: 50px;
+              position: relative; }
+            #maincontent #maindetail .fr form .bottom .s_list img {
+              cursor: pointer;
+              width: 48px;
+              height: 48px;
+              border: solid 1px #CCC; }
+            #maincontent #maindetail .fr form .bottom .s_list .current span {
+              display: block; }
+            #maincontent #maindetail .fr form .bottom .s_list .current img {
+              border: solid 1px #b6120c; }
+            #maincontent #maindetail .fr form .bottom .s_list span {
+              display: none;
+              position: absolute;
+              right: 0;
+              bottom: 0;
+              width: 12px;
+              height: 13px;
+              background: url(../img/select.gif) no-repeat 0 0; }
+          #maincontent #maindetail .fr form .bottom .li2 {
+            height: 25px;
+            line-height: 25px; }
+          #maincontent #maindetail .fr form .bottom .g_list .current {
+            border: solid 1px #b6120c;
+            cursor: pointer; }
+          #maincontent #maindetail .fr form .bottom .g_list .current span {
+            display: block; }
+          #maincontent #maindetail .fr form .bottom .g_list span {
+            display: none;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 12px;
+            height: 13px;
+            background: url(../img/select.gif) no-repeat 0 0; }
+          #maincontent #maindetail .fr form .bottom .g_list a {
+            text-decoration: none;
+            position: relative;
+            border: solid 1px #CCC;
+            display: inline-block;
+            width: 48px;
+            height: 23px;
+            line-height: 23px;
+            text-align: center;
+            background-color: White;
+            margin: 0 10px 0 0; }
+          #maincontent #maindetail .fr form .bottom .li3 {
+            padding: 20px 0 10px 78px; }
+            #maincontent #maindetail .fr form .bottom .li3 .label {
+              top: 20px; }
+          #maincontent #maindetail .fr form .bottom .btn1 {
+            vertical-align: middle;
+            border: 0;
+            background: url(../img/num_btns.jpg) no-repeat 0 0;
+            width: 25px;
+            height: 25px;
+            cursor: pointer; }
+          #maincontent #maindetail .fr form .bottom .text {
+            vertical-align: middle;
+            width: 47px;
+            height: 23px;
+            padding: 0;
+            text-align: center;
+            line-height: 23px;
+            border: 0;
+            border-top: solid 1px #e4e4e4;
+            border-bottom: solid 1px #e4e4e4; }
+          #maincontent #maindetail .fr form .bottom .disabled {
+            background: url(../img/num_btns_disabled.jpg) no-repeat 0 0;
+            cursor: default; }
+          #maincontent #maindetail .fr form .bottom .btn2 {
+            border: 0;
+            vertical-align: middle;
+            background: url(../img/num_btns.jpg) no-repeat right 0;
+            width: 25px;
+            height: 25px;
+            cursor: pointer; }
+          #maincontent #maindetail .fr form .bottom .buybtn {
+            margin: 0 25px 0 0;
+            width: 187px;
+            height: 38px;
+            cursor: pointer;
+            border: 0;
+            background: url(../img/icon.png) no-repeat -230px -276px; }
+          #maincontent #maindetail .fr form .bottom .collectbtn {
+            width: 81px;
+            height: 32px;
+            border: 0;
+            cursor: pointer;
+            background: url(../img/icon.png) no-repeat -425px -276px; }
+  #maincontent .product_detail .fl #splitcontent {
+    border: solid 1px #e4e4e4;
+    border-top-width: 0;
+    height: 37px;
+    border-bottom-width: 0;
+    margin-bottom: 10px;
+    float: left;
+    overflow: hidden;
+    width: 969px; }
+    #maincontent .product_detail .fl #splitcontent #product_tabs {
+      overflow: hidden;
+      font-size: 16px;
+      line-height: 37px;
+      height: 37px;
+      background: url("http://static.hicha.com/themes/default/images/product_tabs_bg.jpg") repeat-x 0 0; }
+      #maincontent .product_detail .fl #splitcontent #product_tabs ul {
+        width: 1000px; }
+        #maincontent .product_detail .fl #splitcontent #product_tabs ul li {
+          text-align: center;
+          background: url("http://static.hicha.com/themes/default/images/tabs_split.jpg") no-repeat right 1px;
+          cursor: pointer;
+          font-size: 15px;
+          float: left;
+          width: 194px;
+          position: relative;
+          height: 37px;
+          line-height: 37px; }
+          #maincontent .product_detail .fl #splitcontent #product_tabs ul li span {
+            font-size: 15px;
+            width: 194px;
+            display: block;
+            height: 37px; }
+            #maincontent .product_detail .fl #splitcontent #product_tabs ul li span a {
+              color: #484848;
+              display: block;
+              height: 37px;
+              text-decoration: none;
+              font-size: 15px; }
+        #maincontent .product_detail .fl #splitcontent #product_tabs ul .current {
+          background-image: none;
+          color: White;
+          background-color: #b20000; }
+          #maincontent .product_detail .fl #splitcontent #product_tabs ul .current span {
+            width: 196px;
+            position: absolute;
+            left: -2px;
+            top: 0;
+            background-color: #b20000; }
+            #maincontent .product_detail .fl #splitcontent #product_tabs ul .current span a {
+              color: White; }
+    #maincontent .product_detail .fl #splitcontent .productintro {
+      border: solid 1px #e4e4e4;
+      border-top-width: 0;
+      padding: 15px 30px; }
+      #maincontent .product_detail .fl #splitcontent .productintro img {
+        border: 0;
+        vertical-align: bottom; }

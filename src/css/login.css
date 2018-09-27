@@ -1,0 +1,166 @@
+@charset "UTF-8";
+#header {
+  z-index: 9991110;
+  height: 85px;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto; }
+  #header #logon {
+    width: 500px;
+    height: 85px;
+    overflow: hidden;
+    position: absolute;
+    left: 0; }
+    #header #logon a {
+      display: block;
+      height: 85px; }
+      #header #logon a img {
+        background: url(../img/logo.png) no-repeat 50% 50%; }
+  #header .cart_pic {
+    width: 199px;
+    height: 31px;
+    background: url(../img/icon.png) no-repeat -441px -609px;
+    position: absolute;
+    right: 0;
+    top: 28px; }
+
+#logincontent {
+  position: relative;
+  padding: 60px 0 90px 0;
+  height: 530px;
+  width: 1200px;
+  margin: 0 auto; }
+  #logincontent .login {
+    float: right;
+    width: 393px;
+    border: solid 1px #DADADA;
+    position: relative;
+    height: 382px; }
+    #logincontent .login .u_login h4 {
+      border-top: solid 2px #ED1C24;
+      font-size: 20px;
+      padding: 10px 40px 5px 40px;
+      font-weight: normal;
+      height: 25px; }
+    #logincontent .login .u_login form {
+      width:391px;
+      height: 216px;
+      margin-top: 0px;
+      margin-bottom: 3px; }
+      #logincontent .login .u_login form ul {
+        padding: 0 0 5px 40px;
+        line-height: 20px; }
+        #logincontent .login .u_login form ul li {
+          vertical-align: bottom;
+          padding: 8px 0 0 0;
+          line-height: 25px; }
+          #logincontent .login .u_login form ul li p {
+            color: #8F8F8F; }
+          #logincontent .login .u_login form ul li .text {
+            width: 306px;
+            padding: 5px;
+            line-height: 22px;
+            border: solid 1px #D8D8D8;
+            height: 34px; }
+          #logincontent .login .u_login form ul li #login_fail {
+            background-color: #FFEBEC;
+            border: 1px solid #FFBDBF;
+            color: #E6393D;
+            height: 20px;
+            line-height: 20px;
+            width: 304px;
+            display: none; }
+        #logincontent .login .u_login form ul .checkboxli {
+          width: 306px; }
+          #logincontent .login .u_login form ul .checkboxli .pwd {
+            float: right;
+            font-family: Arial, Helvetica, STHeiti,"宋体";
+            color: #B20000;
+            font-size: 12px; }
+          #logincontent .login .u_login form ul .checkboxli .checkbox {
+            vertical-align: middle;
+            margin: -3px 4px 0 0; }
+        #logincontent .login .u_login form ul .btnli .submitbtn {
+          border: 0;
+          cursor: pointer;
+          width: 306px;
+          height: 35px;
+          background: url(../img/icon.png) no-repeat -234px -1034px; }
+    #logincontent .login .u_login .other {
+      border-top: solid 1px #CFCFCF;
+      padding: 3px 25px;
+      line-height: 20px;
+      margin: 0 auto;
+      width: 356px;
+      height:29px; }
+      #logincontent .login .u_login .other p {
+        color: #8F8F8F; }
+      #logincontent .login .u_login .other .logintype {
+        padding-top: 2px;
+        width: 340px; }
+        #logincontent .login .u_login .other .logintype a {
+          line-height: 20px;
+          color: #666460;
+          float: left;
+          display: block;
+          width: 45px;
+          text-align: center;
+          font-size: 12px; }
+          #logincontent .login .u_login .other .logintype a .pic {
+            background: url(../img/quick_login_type.jpg) no-repeat 0px 0px;
+            display: block;
+            width: 23px;
+            height: 23px;
+            margin: 0px auto; }
+          #logincontent .login .u_login .other .logintype a .pic1 {
+            background-position: 0px 0px; }
+          #logincontent .login .u_login .other .logintype a .pic2 {
+            background-position: -47px 0px; }
+          #logincontent .login .u_login .other .logintype a .pic3 {
+            background-position: -92px 0px; }
+          #logincontent .login .u_login .other .logintype a .pic4 {
+            background-position: -137px 0px; }
+          #logincontent .login .u_login .other .logintype a .pic5 {
+            background-position: -184px 0px; }
+          #logincontent .login .u_login .other .logintype a .pic6 {
+            background-position: -232px 0px; }
+          #logincontent .login .u_login .other .logintype a .pic7 {
+            background-position: -279px 0px; }
+    #logincontent .login .u_login .reg {
+      font-size: 15px;
+      width: 391px;
+      height: 45px;
+      padding: 0 45px 0 45px;
+      background-color: #F6F6F6;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      font-size: 12px;
+      line-height: 45px; }
+      #logincontent .login .u_login .reg span {
+        float: right;
+        color: #ADADAD; }
+    #logincontent .login .regbtn {
+      right: 38px;
+      bottom: -43px;
+      width: 125px;
+      height: 38px;
+      background: url(../img/icon.png) no-repeat -458px -767px;
+      display: block;
+      position: absolute; }
+    #logincontent .login .bg1 {
+      width: 391px;
+      height: 5px;
+      overflow: hidden;
+      background-color: #E4E4E4;
+      position: absolute;
+      bottom: -5px;
+      left: 5px; }
+    #logincontent .login .bg2 {
+      width: 4px;
+      overflow: hidden;
+      background-color: #E4E4E4;
+      position: absolute;
+      top: 6px;
+      right: -5px;
+      height: 375px; }

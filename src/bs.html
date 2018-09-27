@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>嗨茶后台数据管理</title>
+    <link rel="stylesheet" type="text/css" href="css/bs.css"/>
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" ></script>
+    <script src="js/bs.js" type="text/javascript"></script>
+</head>
+<body style="background:#FFFFC9">
+    <div class="s_hc">
+        <img src="../img/logo.png" />
+    </div>
+<!-- top -->
+    <div class="s_top">
+        <div class="s_top_l">
+            嗨茶后台数据管理
+        </div>
+        <div class="s_top_r">
+            <ul>
+                <li>欢迎</li>
+                <li><a href="">XXX</a></li>
+                <li><button type="button" class="btn btn-danger">退出</button></li>
+            </ul>
+        </div>
+    </div>
+<!-- l_nav -->
+    <div class="s_nav">
+        <div class="s_nav_l">
+            <ul>
+                <li class="s_li1">
+                    <span class="s_sp">供应商</span>
+                    <ul class="s_li2 " >
+                        <li>红茶供应商</li>
+                        <li>绿茶供应商</li>
+                        <li>乌龙茶供应商</li>
+                    </ul>
+                </li>
+                <li class="s_li1">
+                    <span class="s_sp1 ">订单</span>
+                    <ul class="s_ul2">
+                        <li>待付款</li>
+                        <li>未付款</li>
+                        <li>已付款</li>
+                    </ul>
+                </li>
+                <li class="s_li1">
+                    <span class="s_sp2 ">售后</span>
+                    <ul class="s_ul3">
+                        <li>退货</li>
+                        <li>问题订单</li>
+                        <li>用户评价</li>
+                    </ul>
+                </li>
+                <li class="s_li1">
+                    <span class="s_sp3">商品管理</span>
+                    <ul class="s_ul4">
+                        <li>商品上架</li>
+                        <li>商品促销</li>
+                        <li>商品下架</li>
+                        <li>库存</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="s_nav_r">
+            <!-- 订单 -->
+            <table class="table table-hover dfk" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>待付款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:40px"><span aria-hidden="true" class="s_cspan">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped s_dfkdd">
+                    <tr>
+                        <td>订单号</td>
+                        <td>用户</td>
+                        <td>订单详情</td>
+                        <td>订单数量</td>
+                        <td>订单金额</td>
+                        <td>地址</td>
+                        <td>订单状态</td>
+                        <td>操作</td>
+                    </tr>
+                     <tr>
+                        <td>001</td>
+                        <td>DK</td>
+                        <td>CQWW</td>
+                        <td>4</td>
+                        <td>￥10000</td>
+                        <td>广州天河</td>
+                        <td>待付款</td>
+                        <td><button type="button" class="btn btn-warning s_dfkcbtn">取消</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover wfk" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>未付款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:40px"><span aria-hidden="true" class="s_cspan1">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>订单号</td>
+                        <td>用户</td>
+                        <td>订单详情</td>
+                        <td>订单数量</td>
+                        <td>订单金额</td>
+                        <td>地址</td>
+                        <td>订单状态</td>
+                        <td>操作</td>
+                    </tr>
+                     <tr>
+                        <td>001</td>
+                        <td>DK</td>
+                        <td>CQWW</td>
+                        <td>4</td>
+                        <td>￥10000</td>
+                        <td>广州天河</td>
+                        <td>未付款</td>
+                        <td><button type="button" class="btn btn-warning s_wfkbtn">跟踪</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover yfk" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>已付款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:40px"><span aria-hidden="true" class="s_cspan2">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>订单号</td>
+                        <td>用户</td>
+                        <td>订单详情</td>
+                        <td>订单数量</td>
+                        <td>订单金额</td>
+                        <td>地址</td>
+                        <td>订单状态</td>
+                        <td>操作</td>
+                    </tr>
+                     <tr>
+                        <td>001</td>
+                        <td>DK</td>
+                        <td>CQWW</td>
+                        <td>4</td>
+                        <td>￥10000</td>
+                        <td>广州天河</td>
+                        <td>已付款</td>
+                        <td><button type="button" class="btn btn-warning s_yfkbtn">确认</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- 售后 -->
+            <table class="table table-hover th" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>退货</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:56px"><span aria-hidden="true" class="s_ths">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>订单号</td>
+                        <td>用户</td>
+                        <td>订单详情</td>
+                        <td>订单数量</td>
+                        <td>订单金额</td>
+                        <td>地址</td>
+                        <td>退货原因</td>
+                        <td>操作</td>
+                    </tr>
+                     <tr>
+                        <td>001</td>
+                        <td>DK</td>
+                        <td>CQWW</td>
+                        <td>4</td>
+                        <td>￥10000</td>
+                        <td>广州天河</td>
+                        <td>客服服务不好</td>
+                        <td><button type="button" class="btn btn-warning s_thbtn">允许退货</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover wtdd" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>问题订单</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:56px"><span aria-hidden="true" class="s_ths1">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>订单号</td>
+                        <td>用户</td>
+                        <td>订单详情</td>
+                        <td>订单数量</td>
+                        <td>订单金额</td>
+                        <td>地址</td>
+                        <td>问题详情</td>
+                        <td>操作</td>
+                    </tr>
+                     <tr>
+                        <td>001</td>
+                        <td>DK</td>
+                        <td>CQWW</td>
+                        <td>4</td>
+                        <td>￥10000</td>
+                        <td>广州天河</td>
+                        <td>拍错</td>
+                        <td><button type="button" class="btn btn-warning s_wtddbtn">订单处理</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover yhpj" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>用户评价</th>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:56px"><span aria-hidden="true" class="s_ths2">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>好评</td>
+                        <td>中评</td>
+                        <td>差评</td>
+                    </tr>
+                     <tr>
+                        <td>100000</td>
+                        <td>332</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- 商品管理 -->
+            <table class="table table-hover spsj" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>商品上架</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:78px"><span aria-hidden="true" class="s_spsj">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>商品号</td>
+                        <td>商品类型</td>
+                        <td>商品详情</td>
+                        <td>上架数量</td>
+                        <td>商品价钱</td>
+                        <td>操作</td>
+                    </tr>
+                     <tr>
+                        <td>001</td>
+                        <td>茶类</td>
+                        <td>红茶</td>
+                        <td>100</td>
+                        <td>￥3.00</td>
+                        <td><button type="button" class="btn btn-warning">确认上架</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover spcx" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>商品促销</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:70px"><span aria-hidden="true" class="s_spcx">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>商品号</td>
+                        <td>商品类型</td>
+                        <td>商品详情</td>
+                        <td>商品原价</td>
+                        <td>商品促销价</td>
+                        <td>操作</td>
+                    </tr>
+                     <tr>
+                        <td>001</td>
+                        <td>茶类</td>
+                        <td>红茶</td>
+                        <td>￥4.50</td>
+                        <td>￥3.00</td>
+                        <td><button type="button" class="btn btn-warning">确认</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover spxj" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>商品下架</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:70px"><span aria-hidden="true" class="s_spxj">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>商品号</td>
+                        <td>商品类型</td>
+                        <td>商品详情</td>
+                        <td>商品价钱</td>
+                        <td>下架原因</td>
+                        <td>操作</td>
+                    </tr>
+                    <tr class="s_xj">
+                        <td>001</td>
+                        <td>茶类</td>
+                        <td>红茶</td>
+                        <td>￥3.00</td>
+                        <td>心情不好</td>
+                        <td><button type="button" class="btn btn-warning s_spxjbtn">确认下架</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover spkc" style="margin-bottom:0">
+                <thead>
+                    <tr>
+                        <th>商品库存</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="close" aria-label="Close" style="margin-right:70px"><span aria-hidden="true" class="s_spkc">&times;</span></button>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="table-striped ">
+                    <tr>
+                        <td>红茶（单位/箱）</td>
+                        <td>绿茶（单位/箱）</td>
+                        <td>乌龙茶（单位/箱）</td>
+                        <td>铁观音（单位/箱）</td>
+                        <td>龙井茶（单位/箱）</td>
+                        <td>操作</td>
+                    </tr>
+                     <tr>
+                        <td>100</td>
+                        <td>200</td>
+                        <td>30</td>
+                        <td>80</td>
+                        <td>10</td>
+                        <td><button type="button" class="btn btn-warning">编辑</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

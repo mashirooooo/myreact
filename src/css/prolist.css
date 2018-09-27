@@ -1,0 +1,318 @@
+#maincontent {
+  width: 1200px;
+  margin: 0 auto; }
+  #maincontent #searchcondition {
+    background: url(../img/searchcondition_bg.jpg) repeat-y 0 0;
+    margin: 10px 0 0 0;
+    border: solid 1px #E4E4E4;
+    border-bottom-width: 0; }
+    #maincontent #searchcondition .title {
+      overflow: hidden;
+      padding: 0 10px;
+      height: 36px;
+      background: url(../img/compare_titlebg.jpg) repeat-x 0 0;
+      line-height: 35px; }
+      #maincontent #searchcondition .title label {
+        float: right;
+        color: #9C9C9C; }
+        #maincontent #searchcondition .title label b {
+          font-family: Arial;
+          padding: 0 4px;
+          color: #7C7B7B; }
+      #maincontent #searchcondition .title a:hover {
+        text-decoration: underline; }
+    #maincontent #searchcondition dl {
+      border-bottom: solid 1px #E4E4E4;
+      position: relative;
+      width: 1198px;
+      display: block; }
+      #maincontent #searchcondition dl .item {
+        padding-right: 100px;
+        position: relative; }
+        #maincontent #searchcondition dl .item .linkspan {
+          margin: 2px 0 2px 10px;
+          line-height: 20px;
+          height: 20px;
+          vertical-align: bottom;
+          overflow: hidden;
+          display: inline-block;
+          width: 83px; }
+          #maincontent #searchcondition dl .item .linkspan a {
+            display: inline-block;
+            padding: 0 10px; }
+          #maincontent #searchcondition dl .item .linkspan a:hover {
+            text-decoration: none;
+            background-color: #AA0300;
+            color: White; }
+        #maincontent #searchcondition dl .item .spancurrent {
+          width: 83px;
+          height: 20px;
+          position: relative;
+          display: inline-block; }
+          #maincontent #searchcondition dl .item .spancurrent .word {
+            display: inline-block;
+            height: 20px;
+            position: relative;
+            background-color: #AA0300;
+            color: White;
+            padding: 0 10px 0 10px;
+            width: auto; }
+    #maincontent #searchcondition dt {
+      position: absolute;
+      height: 25px;
+      line-height: 25px;
+      color: #830200;
+      width: 120px;
+      text-align: center;
+      left: 0;
+      top: 10px; }
+    #maincontent #searchcondition .dl {
+      left: -1px;
+      position: relative;
+      top: -1px; }
+    #maincontent #searchcondition dd {
+      line-height: 20px;
+      padding: 10px 0 10px 120px; }
+      #maincontent #searchcondition dd .spancurrent {
+        color: White; }
+  #maincontent .filter {
+    background: #f7f5f5;
+    height: 41px;
+    line-height: 25px;
+    padding: 8px 10px;
+    margin-top: 10px; }
+    #maincontent .filter .none {
+      display: none; }
+    #maincontent .filter .condition {
+      float: left;
+      height: 23px;
+      line-height: 23px;
+      margin: 0 8px 0 0;
+      border: 1px solid #d1ccc7; }
+      #maincontent .filter .condition li {
+        background-color: white;
+        border-left: 1px solid #D1CCC7;
+        float: left;
+        height: 23px;
+        line-height: 23px;
+        width: 56px;
+        text-align: center; }
+      #maincontent .filter .condition .li1 {
+        background: url(../img/condition_pic5.jpg) 100% 100% no-repeat white;
+        position: relative;
+        text-align: center;
+        width: 113px;
+        z-index: 90;
+        border-left: none; }
+        #maincontent .filter .condition .li1 .none {
+          display: none;
+          background-color: white;
+          border-bottom: 1px solid #D1CCC7;
+          border-left: 1px solid #D1CCC7;
+          border-right: 1px solid #D1CCC7;
+          border-top: 0px solid #D1CCC7;
+          left: -1px;
+          overflow: hidden;
+          position: absolute;
+          top: 23px;
+          width: 113px; }
+          #maincontent .filter .condition .li1 .none p {
+            border-top: 1px dotted #D0C8C3;
+            height: 22px;
+            line-height: 22px;
+            padding: 0px 0px 0px 5px;
+            position: relative;
+            text-align: left; }
+      #maincontent .filter .condition .li1:hover .none {
+        display: block; }
+      #maincontent .filter .condition .rank {
+        background: url(../img/icon.png) -539px -56px no-repeat transparent;
+        padding: 0px 10px 0px 0px; }
+    #maincontent .filter .price {
+      float: left;
+      padding: 5px 0px 0px 8px;
+      position: relative;
+      top: -5px;
+      width: 168px;
+      z-index: 9997; }
+      #maincontent .filter .price .none {
+        background-color: #EFECEB;
+        border-bottom: 1px solid #D3CEC9;
+        border-left: 1px solid #D3CEC9;
+        border-right: 1px solid #D3CEC9;
+        border-top: 0px solid #D3CEC9;
+        height: 43px;
+        padding: 8px 8px 0px;
+        position: absolute;
+        text-align: right;
+        width: 152px; }
+      #maincontent .filter .price .savebtn {
+        background: url(../img/icon.png) -23px -99px no-repeat transparent;
+        border: 0px none currentColor;
+        cursor: pointer;
+        display: inline-block;
+        height: 22px;
+        width: 48px; }
+      #maincontent .filter .price .cancelbtn {
+        background: url(../img/icon.png) -81px -77px no-repeat transparent;
+        border: 0px none currentColor;
+        cursor: pointer;
+        height: 22px;
+        margin: 0px 0px 0px 10px;
+        width: 48px; }
+    #maincontent .filter .pricecurrent {
+      background-color: #EFECEB;
+      border: 1px solid #D3CEC9;
+      padding: 4px 0px 0px 7px;
+      width: 157px; }
+    #maincontent .filter .text {
+      background: url(../img/icon.png) -523px -35px no-repeat white;
+      border: 1px solid #D1CCC7;
+      color: #B2B2B2;
+      height: 23px;
+      line-height: 23px;
+      padding: 0px 0px 0px 20px;
+      width: 67px; }
+    #maincontent .filter .label {
+      color: #A8A8A8;
+      padding: 0px 3px; }
+  #maincontent #searchbody {
+    width: 1200px;
+    overflow: hidden; }
+    #maincontent #searchbody ul, #maincontent #searchbody li, #maincontent #searchbody span, #maincontent #searchbody input, #maincontent #searchbody button, #maincontent #searchbody div, #maincontent #searchbody img {
+      box-sizing: content-box; }
+    #maincontent #searchbody .list {
+      display: inline-block;
+      width: 1250px; }
+      #maincontent #searchbody .list li {
+        z-index: 1;
+        position: relative;
+        padding: 10px 12px 0 0;
+        float: left;
+        width: 230px;
+        margin-bottom: 15px; }
+      #maincontent #searchbody .list li:hover {
+        z-index: 2; }
+        #maincontent #searchbody .list li:hover .inner {
+          border: solid 1px #CFCFCF; }
+      #maincontent #searchbody .list .inner:hover {
+        box-shadow: 0 0 15px #a4a4a4; }
+      #maincontent #searchbody .list .inner {
+        width: 210px;
+        padding: 9px;
+        height: 360px;
+        border: solid 1px White; }
+        #maincontent #searchbody .list .inner .bg1 {
+          visibility: hidden;
+          width: 230px;
+          height: 4px;
+          overflow: hidden;
+          background-color: #E3E3E3;
+          position: absolute;
+          left: 3px;
+          top: 390px; }
+        #maincontent #searchbody .list .inner .bg2 {
+          visibility: hidden;
+          display: none;
+          width: 3px;
+          height: 380px;
+          left: 230px;
+          top: 13px;
+          background-color: #E3E3E3;
+          position: absolute; }
+        #maincontent #searchbody .list .inner .img {
+          text-align: center;
+          min-height: 210px; }
+          #maincontent #searchbody .list .inner .img img {
+            width: 210px;
+            height: 210px; }
+        #maincontent #searchbody .list .inner h5 {
+          height: 18px; }
+        #maincontent #searchbody .list .inner .label {
+          height: 18px;
+          color: red;
+          overflow: hidden; }
+        #maincontent #searchbody .list .inner .price {
+          padding: 5px 0 0 0;
+          height: 20px;
+          line-height: 20px;
+          overflow: hidden; }
+          #maincontent #searchbody .list .inner .price .comment {
+            float: right; }
+          #maincontent #searchbody .list .inner .price span {
+            font-family: Arial;
+            font-size: 18px;
+            color: #D30606; }
+          #maincontent #searchbody .list .inner .price del {
+            padding: 0 0 0 8px;
+            color: #999; }
+        #maincontent #searchbody .list .inner .discount {
+          height: 20px;
+          color: #D20000;
+          line-height: 20px;
+          overflow: hidden;
+          padding: 5px 0 0 0; }
+          #maincontent #searchbody .list .inner .discount span {
+            float: right;
+            color: #484848; }
+        #maincontent #searchbody .list .inner .activity {
+          padding: 5px 0; }
+        #maincontent #searchbody .list .inner .comparebtn {
+          cursor: pointer;
+          width: 53px;
+          height: 25px;
+          border: 0;
+          background: url(../img/icon.png) no-repeat -143px -125px;
+          cursor: pointer; }
+        #maincontent #searchbody .list .inner .collectbtn {
+          margin: 0 7px;
+          width: 53px;
+          height: 25px;
+          border: 0;
+          background: url(../img/icon.png) no-repeat -202px -125px;
+          cursor: pointer; }
+        #maincontent #searchbody .list .inner .addtocarts {
+          width: 80px;
+          height: 25px;
+          border: 0;
+          background: url(../img/compare_btn.jpg) no-repeat right 0;
+          cursor: pointer; }
+    #maincontent #searchbody .page {
+      text-align: right;
+      padding: 15px 0 5px 0;
+      line-height: 23px; }
+      #maincontent #searchbody .page a {
+        margin: 0 5px 0 0;
+        border: solid 1px #D1CCC7;
+        display: inline-block;
+        padding: 0 8px; }
+      #maincontent #searchbody .page .prev {
+        background: url(../img/page_prev.jpg) no-repeat 5px 8px #F6F6F6;
+        padding-left: 15px; }
+      #maincontent #searchbody .page .current {
+        color: White;
+        background-color: #C00;
+        border: solid 1px #C00; }
+      #maincontent #searchbody .page .next {
+        background: url(../img/page_next.jpg) no-repeat 48px 8px #F6F6F6;
+        padding-right: 15px; }
+      #maincontent #searchbody .page .text {
+        width: 38px;
+        height: 23px;
+        margin: 0 5px;
+        line-height: 23px;
+        padding: 0;
+        text-align: center;
+        border: solid 1px #7F9DB9;
+        vertical-align: middle; }
+      #maincontent #searchbody .page .btn {
+        margin: 0 0 0 5px;
+        width: 45px;
+        height: 25px;
+        padding: 0;
+        overflow: visible;
+        border: 0;
+        background: url(../img/icon.png) no-repeat -203px 0;
+        overflow: hidden;
+        cursor: pointer;
+        vertical-align: middle; }
